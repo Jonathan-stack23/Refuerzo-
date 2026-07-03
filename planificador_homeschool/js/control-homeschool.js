@@ -159,7 +159,7 @@ function actualizarResumen() {
         todasLasActividades = todasLasActividades.concat(m.actividades);
     });
 
-    var totalMinutos = 0;
+    let totalMinutos = 0;
     todasLasActividades.forEach(function (act) {
         totalMinutos = totalMinutos + act.minutos;
     });
